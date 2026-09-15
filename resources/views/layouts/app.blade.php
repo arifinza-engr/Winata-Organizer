@@ -21,9 +21,6 @@
     <script type="application/ld+json">@json(['@context' => 'https://schema.org', '@type' => ['LocalBusiness','WeddingPlanning'], 'name' => $site['brand']['name'], 'description' => $site['seo']['description'], 'address' => ['@type' => 'PostalAddress', 'addressLocality' => 'Semarang', 'addressRegion' => 'Jawa Tengah', 'addressCountry' => 'ID'], 'telephone' => '+'.$site['brand']['whatsapp'], 'url' => $site['seo']['canonical'], 'sameAs' => [$site['brand']['instagram']]])</script>
 </head>
 <body>
-    @if($site['demo_mode'])
-        <div class="demo-banner" role="note">Website Concept Preview <span>•</span> Winata Organizer</div>
-    @endif
     {{ $slot }}
 </body>
 </html>

@@ -25,7 +25,6 @@
     <script type="application/ld+json">{!! json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
 </head>
 <body>
-@if($site['demo_mode'])<div class="demo-banner" role="note">Website Concept Preview <span>•</span> Winata Organizer</div>@endif
 {{ $slot }}
 </body>
 </html>
