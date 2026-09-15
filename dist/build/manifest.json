@@ -1,0 +1,21 @@
+{
+  "_lottie--aaZOHgx.js": {
+    "file": "assets/lottie--aaZOHgx.js",
+    "name": "lottie",
+    "isDynamicEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-I_5--wbW.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CWCquIyL.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "_lottie--aaZOHgx.js"
+    ]
+  }
+}

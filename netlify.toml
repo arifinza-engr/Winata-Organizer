@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build:static"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  PHP_VERSION = "8.3"
+
+[[headers]]
+  for = "/build/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
